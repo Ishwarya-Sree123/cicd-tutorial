@@ -8,18 +8,17 @@ jobs:
         run: |
          echo "first line of build"
          echo "second line of build"
-  
   test:
-      runs-on: ubuntu-latest
-      steps:
-        - name: test steps
-          run: |
-           echo "first line of test"
-           echo "second line of test"
+    runs-on: ubuntu-latest
+    steps:
+      - name: test steps
+        run: |
+         echo "first line of test"
+         echo "second line of test"
   deploy:
-      runs-on: ubuntu-latest
-      steps:
-        - name: deploy steps
-          run: |
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy steps
+        run: |
          echo "first line of deploy"
          echo "second line of deploy"
